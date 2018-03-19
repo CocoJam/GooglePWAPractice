@@ -1,8 +1,8 @@
 var http = require('http');
-var port = 5000;
+var port = 5300;
 
 http.createServer(function(request, response) {
-
+  console.log("hello there")
   // enable CORS
   response.setHeader('Access-Control-Allow-Origin', '*');
   response.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
